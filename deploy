@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export DEPLOY_TARGET="$1"
+cp index.html "$DEPLOY_TARGET" || exit 4
